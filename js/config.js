@@ -22,7 +22,10 @@ const SITE_CONFIG = {
 
 
 
-const CUSTOMER_SITES = {
+
+
+// API站点配置
+const API_SITES = {
 qiqi: {
 api: 'https://www.qiqidys.com/api.php/provide/vod',
 name: '七七资源',
@@ -327,19 +330,6 @@ kuaiyun: {
 api: 'https://www.kuaiyunzy.com/api.php/provide/vod/',
 name: '快云|点播',
 },
-};
-
-
-
-
-// API站点配置
-const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    }
-    //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
 // 定义合并方法
